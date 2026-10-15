@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: cryobalance
+Version: 0.1.0
+Summary: Regularized spherical harmonic orientation balancing for single-particle cryo-EM
+Author-email: Krishna Kant Gupta <krishnakant.gupta@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: scipy>=1.8.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: starfile>=0.5.0
+Requires-Dist: click>=8.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
